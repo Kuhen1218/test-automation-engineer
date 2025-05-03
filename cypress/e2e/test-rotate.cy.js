@@ -94,7 +94,7 @@ describe('Delete Product', () => {
   it('Delete Product', () => {                   //Delete product
     cy.visit('http://localhost:4200/')
     cy.get(':nth-child(1) > .nav-link').click()
-    cy.get(':nth-child(20) > .card-body > .button-container > .btn-danger')
+    cy.get(':nth-child(11) > .card-body > .button-container > .btn-danger').click()
   })
 })
 
