@@ -40,7 +40,8 @@ describe('Orders API Test', () => {
     })
 })
 
-describe('Product', () => {
+
+describe('Product API Test', () => {
     it('POST - Create a new product', () => {
         cy.request('POST', 'http://localhost:3000/products', {
             "name": "Pineapple",                                        //create product
@@ -57,4 +58,7 @@ describe('Product', () => {
 
         })
     })
+
 })
+
+
